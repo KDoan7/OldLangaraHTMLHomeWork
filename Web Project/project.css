@@ -1,0 +1,293 @@
+#banner {
+    text-align: center;
+    color:dimgray;
+    background-color: firebrick;
+    font-size: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    text-align: center;
+    font-size: 50px;
+    background-color: darkred;
+    
+}
+
+body {
+    font-family: "Times New Roman", "Georgia", serif;
+    background-image: url(dark-website-backgrounds-10.jpg);
+}
+
+#Jago {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: floralwhite;
+    text-align: center;
+}
+
+p{
+    color: floralwhite;
+    text-align: center;
+}
+
+footer {
+    color: floralwhite;
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#jago2 {
+    float: left;
+    border-right: solid;
+    border-color: floralwhite;
+}
+
+#jago3 {
+    float: right;
+    transform: scale(-1, 1);
+    border-right: solid;
+    border-color: floralwhite;
+}
+
+#jago4 {
+    float: left;
+}
+
+#jago5 {
+    float: right;
+}
+
+#Hisako {
+    font-size: 60px;
+}
+
+table {
+    color: floralwhite;
+}
+
+caption {
+    font-size: 30px;
+}
+
+form {
+    padding: 2em;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+    color: floralwhite;
+}
+
+input {
+    display: block;
+    margin-bottom: 1em;
+    
+}
+
+textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 10.75em;
+}
+
+h2 {
+    color: floralwhite;
+}
+
+#bloo {
+    text-align: center;
+    border-bottom: none;
+    padding: 20px 0 0px 0;
+}
+
+#banner2 {
+    margin-left: 390px;
+    height: auto;
+    width: auto;
+}
+
+#mySubmit {
+    margin-left: 900px;
+}
+
+label {
+    margin-left: 750px;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#width {
+    width: 900px;
+    margin-left: 480px;
+}
+
+h3 {
+    color: floralwhite;
+    text-align: center;
+}
+#width2 {
+    width: 900px;
+    margin-left: 480px;
+}
+
+#homebasics {
+    color: black;
+    border: 3px solid black;
+    background-color: darkred;
+    font-size: 40px;
+    margin-left: 900px;
+    text-decoration: none;
+}
+
+#follow {
+    position: fixed;
+    border-right: solid;
+    color: floralwhite;
+    width: 400px;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: darkred;
+    padding-right: 10px;
+}
+
+ul {
+    list-style: none;
+    max-height: 450px;
+    overflow: auto;
+}
+
+figcaption {
+    color: floralwhite;
+    padding: 0 0 0 0;
+}
+
+figure {
+    margin-left: 500px;
+}
+
+.center {
+    text-align: center;
+}
+
+#HisakoMoveList {
+    height: 300px;
+    width: 300px;
+    float: right;
+}
+
+#video {
+    margin-left: 500px;
+}
+
+#video2 {
+    margin-left: 1100px;
+    
+}
+
+.color {
+    color: darkred;
+}
+
+.color2 {
+    color:dodgerblue;
+}
+
+.container {
+    margin: 10px auto;
+    width: 320px;
+    
+}
+
+fieldset {
+    color: floralwhite;
+}
+
+.center2 {
+    margin-left: 300px;
+}
+
+.center3 {
+    margin-left: 650px;
+}
+
+#homebasics2 {
+    color: black;
+    border: 3px solid black;
+    background-color: darkred;
+    font-size: 40px;
+    margin-left: 850px;
+    text-decoration: none;
+    
+}
+@media only screen and (max-width: 1024px) {
+    
+    nav {
+        margin: 0;
+    }
+      
+    nav a {
+        display: block;
+        padding: 0.2em;
+        width: auto;
+        border-bottom-style: solid;
+        border-bottom: 1px;
+    }
+    
+    #hi {
+        display: none;
+        height: auto;
+        width: auto;
+    }
+    
+    body {
+        background-image: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    nav {
+        margin: 0;
+    }
+      
+    nav a {
+        display: block;
+        padding: 0.2em;
+        width: auto;
+        border-bottom-style: solid;
+        border-bottom: 1px;
+    }
+    
+    #hi {
+        display: none;
+        height: auto;
+        width: auto;
+    }
+    
+    body {
+        background-image: none;
+    }
+}
