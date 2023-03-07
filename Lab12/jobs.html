@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html> 
+     <head> 
+       <title> JavaJam Coffee House Jobs </title>
+       <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+       <meta name="description" content="JavaJam's website that displays all the information about the coffee shop that the user can want, such as menu, entertainment or career opportunities. ">
+       <link rel="stylesheet" type="text/css" href="javajam.css">
+       <!--[if lt IE 9]>
+       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+       </script>
+       <![endif]-->
+     </head>
+     <body id="wrapper">
+       <div>
+         <h1> JavaJam Coffee House</h1>
+       </div>
+        <nav> <ul><li><a href="index.html" > Home</a></li> <li><a href="Menu.html" > Menu</a></li><li><a href="music.html" > Music</a></li> <li><a href="jobs.html" > Jobs</a></li></ul></nav>
+         <main>
+             <h2>Jobs at JavaJam</h2>
+             <p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are makred with an asterisk (*).</p>
+             <form method="post" action="http://webdevbasics.net/scripts/javajam8.php">
+                <label for="form">* Name:</label><input type="text" name="myName" required>
+                <label for="form">* E-mail:</label> <input type="email" name="myEmail" required>
+                <label for="form">* Experience:</label><textarea name="myExperience" rows="2" cols="20" required></textarea>
+                <input type="submit" value="Apply Now" id="mySubmit">
+             </form>
+         </main>       
+     </body>   
+       <footer> Copyright &copy; 2016 JavaJam Coffee House <br>
+               Contact:
+               <a href="mailto: kevindoan715@hotmail.com"> kevindoan715@hotmail.com</a>
+               
+       </footer>
+</html>             
